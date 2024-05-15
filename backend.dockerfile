@@ -2,15 +2,15 @@ FROM node:alpine
 
 ARG SEARXNG_API_URL
 
-WORKDIR /home/perplexica
+WORKDIR /home/ ash
 
-COPY src /home/perplexica/src
-COPY tsconfig.json /home/perplexica/
-COPY config.toml /home/perplexica/
-COPY package.json /home/perplexica/
-COPY yarn.lock /home/perplexica/
+COPY src /home/ ash/src
+COPY tsconfig.json /home/ ash/
+COPY config.toml /home/ ash/
+COPY package.json /home/ ash/
+COPY yarn.lock /home/ ash/
 
-RUN sed -i "s|SEARXNG = \".*\"|SEARXNG = \"${SEARXNG_API_URL}\"|g" /home/perplexica/config.toml
+RUN sed -i "s|SEARXNG = \".*\"|SEARXNG = \"${SEARXNG_API_URL}\"|g" /home/ ash/config.toml
 
 RUN yarn install
 RUN yarn build

@@ -1,4 +1,4 @@
-import { Clock, Edit, Share, Trash } from 'lucide-react';
+import { Clock, Edit, Share, Tr ash } from 'lucide-react';
 import { Message } from './ChatWindow';
 import { useEffect, useState } from 'react';
 import { formatTimeDifference } from '@/lib/utils';
@@ -53,7 +53,7 @@ const Navbar = ({ messages }: { messages: Message[] }) => {
           size={17}
           className="active:scale-95 transition duration-100 cursor-pointer"
         />
-        <Trash
+        <Tr ash
           size={17}
           className="text-red-400 active:scale-95 transition duration-100 cursor-pointer"
         />

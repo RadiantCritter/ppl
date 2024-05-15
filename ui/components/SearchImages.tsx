@@ -56,7 +56,7 @@ const SearchImages = ({
             );
             setLoading(false);
           }}
-          className="border border-dashed border-[#1C1C1C] hover:bg-[#1c1c1c] active:scale-95 duration-200 transition px-4 py-2 flex flex-row items-center justify-between rounded-lg text-white text-sm w-full"
+          className="border border-d ashed border-[#1C1C1C] hover:bg-[#1c1c1c] active:scale-95 duration-200 transition px-4 py-2 flex flex-row items-center justify-between rounded-lg text-white text-sm w-full"
         >
           <div className="flex flex-row items-center space-x-2">
             <ImagesIcon size={17} />

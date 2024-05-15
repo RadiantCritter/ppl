@@ -120,7 +120,7 @@ const MessageBox = ({
               query={history[messageIndex - 1].content}
               chat_history={history.slice(0, messageIndex - 1)}
             />
-            <div className="border border-dashed border-[#1C1C1C] px-4 py-2 flex flex-row items-center justify-between rounded-lg text-white text-sm w-full">
+            <div className="border border-d ashed border-[#1C1C1C] px-4 py-2 flex flex-row items-center justify-between rounded-lg text-white text-sm w-full">
               <div className="flex flex-row items-center space-x-2">
                 <VideoIcon size={17} />
                 <p>Search videos</p>

@@ -107,7 +107,7 @@ redis:
 ui:
   # Custom static path - leave it blank if you didn't change
   static_path: ''
-  static_use_hash: false
+  static_use_h ash: false
   # Custom templates path - leave it blank if you didn't change
   templates_path: ''
   # query_in_title: When true, the result page's titles contains the query
@@ -119,7 +119,7 @@ ui:
   default_theme: simple
   # center the results ?
   center_alignment: false
-  # URL prefix of the internet archive, don't forget trailing slash (if needed).
+  # URL prefix of the internet archive, don't forget trailing sl ash (if needed).
   # cache_url: "https://webcache.googleusercontent.com/search?q=cache:"
   # Default interface locale - leave blank to detect from browser information or
   # use codes from the 'locales' config section
@@ -215,7 +215,7 @@ outgoing:
 #
 # enabled_plugins:
 #   # these plugins are enabled if nothing is configured ..
-#   - 'Hash plugin'
+#   - 'H ash plugin'
 #   - 'Self Information'
 #   - 'Tracker URL remover'
 #   - 'Ahmia blacklist'  # activation depends on outgoing.using_tor_proxy
@@ -1096,9 +1096,9 @@ engines:
     base_url: https://mastodon.social
     shortcut: mau
 
-  - name: mastodon hashtags
+  - name: mastodon h ashtags
     engine: mastodon
-    mastodon_type: hashtags
+    mastodon_type: h ashtags
     base_url: https://mastodon.social
     shortcut: mah
 
@@ -1715,8 +1715,8 @@ engines:
   #    content_xpath: //*[@class="meaning"]
   #    shortcut: ud
 
-  - name: unsplash
-    engine: unsplash
+  - name: unspl ash
+    engine: unspl ash
     shortcut: us
 
   - name: yandex music
